@@ -1,0 +1,21 @@
+{
+    "name": "panthsoni/xinlang",
+    "description": "this is a sina dev api",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "panthsoni",
+            "email": "18029882568@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "panthsoni\\xinlang\\": "src"
+        }
+    }
+}
