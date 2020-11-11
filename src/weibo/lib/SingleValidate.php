@@ -6,9 +6,9 @@ use panthsoni\xinlang\common\CommonValidate;
 class SingleValidate extends CommonValidate
 {
     protected $rule = [
-        'client_id|客户端id' => 'length:0,20',
-        'redirect_uri|回调地址' => 'length:0,255',
-        'grant_type|类型' => 'length:0,50',
+        'client_id|客户端client_id' => 'length:0,20',
+        'redirect_uri|回调地址redirect_uri' => 'length:0,255',
+        'grant_type|类型grant_type' => 'length:0,50',
         'code|code' => 'length:0,50',
         'access_token|access_token' => 'length:0,50'
     ];
